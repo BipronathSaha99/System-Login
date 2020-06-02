@@ -1,0 +1,20 @@
+#   >>>----------------------------System Login to access Admin Pannel-------------------------------------<<<
+user_name=input("Please say the user name:")
+user_password=input("Please enter your password:")
+sys_user={'Adeeb Hasan':'2016@adeeb','Bipronath Saha':'1999@saha','Md Jannatul Naime':'2346%md','Ritu':'128#ritu'}
+
+#loop to check the system:
+for i in sys_user.keys():
+    if i==user_name:
+        for j in sys_user.values():
+            if user_password==sys_user[i]:
+                print("Successfull login...\nwait")
+                pass
+            else:
+                print("Sorry! Enter the correct password or user_name")
+                break
+
+ #  >>>----------------------simple code to Access Admin Pannel-----------------------<<<  
+    
+
+
