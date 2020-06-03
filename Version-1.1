@@ -1,0 +1,19 @@
+# >>-----------------------------System Sign in --------------------------------------------<<
+
+while True:
+    user_name = input("Enter user name=")
+    user_password = input("Enter password=")
+    sys_user = {"Bipro": "1999@saha", "Pravin": "6464$gupta","Adeeb":"2016#bsmrstu"}
+    for i,j in sys_user.items():
+        if (i==user_name and j== user_password):
+            print("You have successfully login the system... \nwait to access ")
+            break
+        else:
+            print("Sorry! Try Again.")
+            break
+
+if user_name in sys_user.keys():
+    pass
+else:
+    print("Sorry! Try Again")
+    
